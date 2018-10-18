@@ -125,6 +125,7 @@ public:
 int main(){
 	Solution s;
 	vector<vector<char>> board(9,vector<char>{9});
+	cout<<"Input 9*9 matrix (no space needed)\n";
 	for(int i=0;i<9;i++){
 		for(int j=0;j<9;j++){
 			cin>>board[i][j];
